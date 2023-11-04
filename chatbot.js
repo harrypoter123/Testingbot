@@ -12,7 +12,7 @@ const io = socketIo(server);
 
 // Connect to MongoDB
 // mongoose.connect('mongodb://localhost:27017/Registrationform', {
-mongoose.connect('mongodb+srv://awez:awez123@cluster0.jicopc7.mongodb.net/', {
+mongoose.connect('mongodb+srv://realtime:realtime@cluster0.sezgves.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
